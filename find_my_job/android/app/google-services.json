@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091567483148",
+    "project_id": "findmyjob-510711",
+    "storage_bucket": "findmyjob-510711.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091567483148:android:6994b13c043266a5b37129",
+        "android_client_info": {
+          "package_name": "com.findmyjob.find_my_job"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqkfgqQqu8qcSV4ZeBSRlVtiJcTuodZ_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

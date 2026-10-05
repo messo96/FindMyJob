@@ -1,0 +1,59 @@
+name: find_my_job
+description: A job matching app connecting candidates with companies.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State management ──────────────────────────────────
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # ── Navigation ────────────────────────────────────────
+  go_router: ^14.6.1
+
+  # ── Models (code-gen) ─────────────────────────────────
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # ── Firebase ──────────────────────────────────────────
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.2
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.6
+  firebase_messaging: ^15.1.5
+  google_sign_in: ^6.2.1
+
+  # ── Maps & Location ───────────────────────────────────
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.2
+
+  # ── UI & UX ───────────────────────────────────────────
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  image_picker: ^1.1.2
+  file_picker: ^8.1.3
+
+  # ── Utilities ─────────────────────────────────────────
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  uuid: ^4.5.1
+
+  # ── Icons ─────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
